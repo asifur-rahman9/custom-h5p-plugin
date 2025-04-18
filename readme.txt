@@ -1,5 +1,5 @@
 === Custom H5P Styles ===
-Contributors: asifurrahman
+Contributors: Asifur Rahman, Chhayhee Sok, Francisco Berrizbeitia
 Tags: h5p, custom styles, pressbooks
 Requires at least: 5.0
 Tested up to: 6.4
