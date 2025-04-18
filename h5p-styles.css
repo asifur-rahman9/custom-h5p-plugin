@@ -1,0 +1,27 @@
+
+.h5p-content {
+    background: purple;
+    color: #050505;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    padding: 20px 24px;
+    border-radius: 10px;
+    box-shadow: 0 4px 5px rgba(0, 3, 4, 0.1);
+    border: 1px solid #e4e6eb;
+    max-width: 500px;
+    margin: 40px auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.h5p-panel-title {
+    font-size: 17px;
+    font-weight: 600;
+    color: #050505;
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #dddfe2;
+}
+.h5p-panel-title:hover {
+    color: #1877f2;
+    cursor: pointer;
+}
