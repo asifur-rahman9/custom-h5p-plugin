@@ -13,3 +13,8 @@ A lightweight plugin to apply custom styles to H5P content in WordPress/Pressboo
 == Installation ==
 1. Upload the plugin folder to `/wp-content/plugins/`
 2. Activate the plugin from the WordPress dashboard.
+
+== How to use it ==
+1. 
+2.
+3.
