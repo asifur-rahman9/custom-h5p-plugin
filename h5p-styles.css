@@ -1,27 +1,124 @@
+/* Importing the Montserrat font. */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
-.h5p-content {
-    background: purple;
-    color: #050505;
-    font-size: 16px;
-    line-height: 1.5;
-    font-weight: 400;
-    padding: 20px 24px;
-    border-radius: 10px;
-    box-shadow: 0 4px 5px rgba(0, 3, 4, 0.1);
-    border: 1px solid #e4e6eb;
-    max-width: 500px;
-    margin: 40px auto;
-    font-family: Arial, Helvetica, sans-serif;
+/* Style that applies to all elements */
+.h5p-container {
+    font-family: Montserrat, Arial;
+	font-size: 16px;
 }
-.h5p-panel-title {
-    font-size: 17px;
-    font-weight: 600;
-    color: #050505;
-    margin-bottom: 8px;
-    padding-bottom: 8px;
-    border-bottom: 1px solid #dddfe2;
+ 
+
+
+/* (1) Accordian Element. */
+
+/* Customizes the button look of each accordian item. */
+.h5p-accordion .h5p-panel-title {
+	background-color: #004085;
+	border-radius: 10px;
 }
-.h5p-panel-title:hover {
-    color: #1877f2;
-    cursor: pointer;
+
+/* Customizes the color of each title. */
+.h5p-accordion .h5p-panel-button {
+	color: white;
+	font-weight: 500;
+}
+
+/* Customizes the content inside each accordian item when expanded. "margin-top" adds spacing to the top of the text. "color" changes the text-color. */
+.h5p-accordion .h5p-panel-content {
+	margin-top: 15px;
+	color: black;
+}
+
+/* Changes the symbol of each accordian item to an "+" sign. */
+.h5p-accordion .h5p-panel-button:before  {
+	content: "\2b";
+}
+
+/* Changes the symbol of each accordian item to an "-" sign after expansion. */
+.h5p-accordion .h5p-panel-expanded .h5p-panel-button:before {
+	-webkit-animation: 0;
+	transform: rotate(0deg);
+	font-family: 'H5PFontAwesome4';
+	content: "\f068";
+	position: absolute;
+	padding-left: 0.7em;
+	font-size: 0.6em;
+	transition: all 200ms ease 0s;
+}
+
+/* Changes the background color of each accordian element when hovering over it */
+.h5p-accordion .h5p-panel-title:hover {
+	background-color: #0072a8;
+	color: lightgray;
+}
+
+
+
+/* (2) Question Set */
+
+/* Changes the background color and style of the Question Set element. */
+.questionset, .h5p-multichoice{
+	background-color: #004085;
+	border-radius: 10px;
+}
+
+/* Changes the title color and style of the question. */
+.h5p-question-introduction {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+	color: white;
+	line-height: 25px;
+	font-weight: 500;
+	font-size: 1.3em;
+}
+
+/* Changes the color/style of the answer choice background */
+.h5p-multichoice .h5p-alternative-container {
+	background-color: white;
+}
+
+/* Changes the text color of the answer choices */
+.h5p-multichoice .h5p-answer {
+	color: #004085;
+}
+
+/* Changes the color of the text of answer choice when hovered over it */
+.h5p-multichoice .h5p-answer:hover {
+	color: black;
+}
+
+/* Button Customization */
+
+/* Changes the background color of all the buttons (Ex. Check, Finish buttons) */
+.h5p-joubelui-button {
+	background-color: #0072a8;
+}
+
+/* Changes the text color and style of the selected answer */
+.h5p-multichoice .h5p-answer[aria-checked="true"] .h5p-alternative-container {
+	border: 2px solid #0072a8;
+	color: black;
+}
+
+/* Changes the style of the 'Results' page */
+.questionset-results {
+	background-color: #004085;
+	border-radius: 10px;
+}
+
+
+/* Changes the "Your Result" text color in the 'Results' page */
+.questionset-results .greeting {
+	color: white;
+}
+
+/* Changes the font color of the feedback captions in "Show Solution". */
+.h5p-question-feedback {
+	color: white;
+}
+
+/* Remove the bottom "dots" bar. */
+.dots-container {
+	display: none;
 }
