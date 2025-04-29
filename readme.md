@@ -16,11 +16,9 @@
 A lightweight WordPress/Pressbooks plugin that applies custom CSS styles to H5P content, enhancing the look and feel of interactive activities.
 
 **Features:**
-- **Global Font:** Applies Montserrat to all H5P modules.
-- **Accordion Styling:** Custom colors, icons, hover effects.
-- **Question Sets:** Themed backgrounds, buttons, feedback.
-- **Button UI:** Unified styling for H5P interface buttons.
-- **Control Hiding:** Optionally hide progress indicators (dots).
+- **Font:** Applies custom fonts to all H5P modules.
+- **Colour:**
+- **Accordion Styling:** 
 
 ---
 
