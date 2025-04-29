@@ -1,6 +1,6 @@
 # Custom H5P Styles
 
-| **Contributors**        | Asifur Rahman, Chhayhee Sok, Francisco Berrizbeitia |
+| **Contributors**        | Asifur Rahman, Chhayhee Sok, Francisco Berrizbeitia, Rachel Harris |
 |-------------------------|---------------------------------------------------|
 | **Tags**                | h5p, custom styles, pressbooks                    |
 | **Requires at least**   | WordPress 5.0                                     |
