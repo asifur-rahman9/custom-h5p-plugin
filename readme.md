@@ -50,7 +50,7 @@ A lightweight WordPress/Pressbooks plugin that applies custom CSS styles to H5P 
 
 ---
 
-## 🤝 Contributing ##
+## 🤝 Contributing 
 
 1. Fork the repository.
 2. Create a feature branch: `git checkout -b feature/my-change`.
@@ -64,5 +64,3 @@ Please follow the [WordPress Coding Standards](https://developer.wordpress.org/c
 ## 📄 License
 
 This plugin is released under the **BSD 3-Clause License**. See [LICENSE.txt](LICENSE.txt) for full terms.
-
-Write this whole thing in markdown for github repo
